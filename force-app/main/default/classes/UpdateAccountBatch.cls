@@ -24,6 +24,8 @@ global class UpdateAccountBatch implements Database.Batchable<sObject>,database.
     }
 
     global void finish(Database.BatchableContext BC) {
+    
        system.debug('Finish');
+       system.debug('Finish in side finish method');
     }
 }
