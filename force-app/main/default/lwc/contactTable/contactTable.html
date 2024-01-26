@@ -1,0 +1,27 @@
+<template>
+    <lightning-card>
+        <!-- Your input fields -->
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <lightning-input label="First Name" name="firstName" onchange={handleChange}></lightning-input>
+            </div>
+            <div class="slds-col">
+                <lightning-input label="Last Name" name="lastName" onchange={handleChange}></lightning-input>
+            </div>
+            <div class="slds-col">
+                <lightning-input label="Email" name="email" onchange={handleChange}></lightning-input>
+            </div>
+            <div class="slds-col">
+                <lightning-input label="Phone" name="phone" onchange={handleChange}></lightning-input>
+            </div>
+        </div>
+
+        <!-- Your button -->
+        <lightning-button label="Add" onclick={handleAdd}></lightning-button>
+
+        <!-- Display added information -->
+        <div if:true={addedInfo}>
+            <p>{addedInfo}</p>
+        </div>
+    </lightning-card>
+</template>

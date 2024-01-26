@@ -1,0 +1,12 @@
+<template>
+    <lightning-dual-listbox
+        label="Select Campaigns"
+        source-label="Available Campaigns"
+        selected-label="Selected Campaigns"
+        options={campaignOptions}
+        value={selectedCampaigns}
+        onchange={handleCampaignSelection}
+        required
+        multiple
+    ></lightning-dual-listbox>
+</template>

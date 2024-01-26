@@ -1,0 +1,17 @@
+<apex:page controller="SupplierPageController">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageMessages /> 
+            <apex:pageBlockSection >
+                <!--<apex:image url="{!$Resource.LogoImage}" width="100" height="100"/>-->
+                <apex:inputText value="{!name}" label="Name"/>
+                <apex:inputText value="{!phone}" label="Phone"/>
+                <apex:inputText value="{!Fax}" label="Fax"/>
+                
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!saveAccount}"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
