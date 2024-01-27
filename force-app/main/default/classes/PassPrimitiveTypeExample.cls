@@ -10,5 +10,7 @@ public with sharing class PassPrimitiveTypeExample {
         System.debug('Records Has been New features  ');
         System.debug('Records Has been New features  ');
         System.debug('Records Has been New features  ');
+
+        //Update in feature branch2
     }
 }
