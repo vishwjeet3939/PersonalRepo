@@ -14,5 +14,7 @@ public with sharing class PassPrimitiveTypeExample {
         system.debug('New method2');   
 
 
+ 
     }
 }
+
