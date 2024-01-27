@@ -6,13 +6,11 @@ public with sharing class PassPrimitiveTypeExample {
         insert objAccount; 
         System.debug('Records Has been created '+objAccount);
 
-        System.debug('Records  ');
+    
+    }
+    public static void debugStatusMessage2() {
 
-        System.debug('Records  vishwa');
-        System.debug('Records vishwa');
-        System.debug('Records vishwa');
+        system.debug('New method');
 
-        System.debug('Records vishwa');
-        System.debug('Records vishwa');
     }
 }
