@@ -6,7 +6,6 @@ public with sharing class PassPrimitiveTypeExample {
         insert objAccount; 
         System.debug('Records Has been created '+objAccount);
 
-        /// added something 
-        // vishwa code
+       
     }
 }
